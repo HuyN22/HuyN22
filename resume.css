@@ -1,0 +1,75 @@
+body {
+    background-image: url(resume.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+
+}
+h1, h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    
+}
+#nav li a:hover {
+    background-color: navy;
+}
+
+#content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align: left;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+table {
+    margin: auto;
+}
+#right{
+    text-align: right;
+}
+
+.right {
+    text-align: right;
+}
+#line {
+    text-align: left;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: black;
+}
+.line{
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: black;
+    text-align: center;
+}
